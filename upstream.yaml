@@ -1,0 +1,13 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "vendor_drop"
+  repo: https://github.com/enjoy-digital/litedram
+  branch: master
+  version: "2026.04"
+  extracted_at: "2026-06-24T06:00:13Z"
+# vendor_drop: whole upstream mirrored verbatim (no selective import).
+# Review LFS patterns + release mirroring per templates/ and the README.
+license:
+  spdx: BSD-2-Clause
+  file: LICENSE
+metadata_locked: true
