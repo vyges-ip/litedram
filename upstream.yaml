@@ -5,6 +5,7 @@ upstream:
   branch: master
   version: "2026.04"
   extracted_at: "2026-06-24T06:00:13Z"
+  commit: 4e2b0a2ac2524ededba58d5330d3a60ed8d2a621
 # vendor_drop: whole upstream mirrored verbatim (no selective import).
 # Review LFS patterns + release mirroring per templates/ and the README.
 license:
